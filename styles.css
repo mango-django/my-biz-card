@@ -1,0 +1,93 @@
+body {
+    margin: 20px;
+    line-height: 10px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+h5 {
+    font-style: italic;
+    color: #5d5d5d;
+}
+
+.avatar {
+    width: 150px;
+    border: 1px solid #e6007e;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #eeeeee;
+    color: #2b2839;
+    border-left: 1px solid #009fe3;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #e6007e;
+    box-shadow: 6px 9px 2px 1px #e7e7e7;
+    
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+
+.bottom-border {
+    display: flex;
+    width: 442px;
+    margin: 0 auto;
+}
+
+.cyan-border {
+    background: #009fe3;
+    height: 5px;
+    width: 440px;
+    
+}
+
+.magenta-border {
+    background: #e6007e;
+    height: 5px;
+    width: 440px;
+}
+.yellow-border {
+    background: #ffed00;
+    height: 5px;
+    width: 440px;
+    margin: 0 auto;
+}
+.black-border {
+    background: #000000;
+    height: 5px;
+    width: 440px;
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
